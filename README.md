@@ -36,7 +36,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
-## 3.1 Desenvolvimento
+#### 3.1 Desenvolvimento
 As métricas apresentadas por padrão são:
 -  Avg. wQL (Média da Perda Quantil Ponderada);
 -  MAPE (Erro Percentual Médio Absoluto);
