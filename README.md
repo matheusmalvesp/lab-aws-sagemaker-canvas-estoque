@@ -43,6 +43,7 @@ As métricas apresentadas por padrão são:
 -  WAPE (Erro Percentual Absoluto Ponderado);
 -  RMSE (Raiz do Erro Quadrático Médio);
 -  MASE (Erro Escalado Médio Absoluto);
+
 O ideal é que todas essas métricas se aproximem de zero, pois por se tratarem de razões ou diferenças entre o real e o previsto, um valor mais próximo do zero significa uma previsão mais próxima do real.
 
 
