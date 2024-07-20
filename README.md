@@ -36,6 +36,16 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
+## 3.1 Desenvolvimento
+As métricas apresentadas por padrão são:
+-  Avg. wQL (Média da Perda Quantil Ponderada);
+-  MAPE (Erro Percentual Médio Absoluto);
+-  WAPE (Erro Percentual Absoluto Ponderado);
+-  RMSE (Raiz do Erro Quadrático Médio);
+-  MASE (Erro Escalado Médio Absoluto);
+O ideal é que todas essas métricas se aproximem de zero, pois por se tratarem de razões ou diferenças entre o real e o previsto, um valor mais próximo do zero significa uma previsão mais próxima do real.
+
+
 ### 4. Prever
 
 -   Use o modelo treinado para fazer previsões de estoque.
